@@ -37,17 +37,18 @@ const ServicesGrid = () => {
             return (
               <div
                 key={service.title}
-                className="glass-panel rounded-xl p-6 transition-all duration-300 hover:scale-105 group cursor-pointer"
+                className="relative group cursor-pointer"
               >
-                <div className="flex items-start">
-                  <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-neon-purple/10 mr-4 relative before:absolute before:inset-0 before:rounded-lg before:bg-neon-purple/5 before:backdrop-blur-sm before:animate-glow-pulse">
-                    <div className="relative z-10 transform transition-transform duration-300 group-hover:scale-110">
-                      <Icon className="w-6 h-6 text-neon-purple drop-shadow-[0_0_8px_rgba(183,110,255,0.8)]" />
+                <div className="absolute inset-0 bg-gradient-to-r from-neon-purple/20 via-neon-blue/20 to-neon-purple/20 rounded-xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300" />
+                <div className="glass-panel rounded-xl p-6 transition-all duration-300 hover:scale-105 border border-white/10 group-hover:border-neon-purple/50 relative bg-black/40 backdrop-blur-sm">
+                  <div className="flex items-start">
+                    <div className="w-12 h-12 rounded-lg flex items-center justify-center bg-accent/20 group-hover:animate-glow-pulse mr-4">
+                      <Icon className="w-6 h-6 text-neon-purple" />
                     </div>
-                  </div>
-                  <div>
-                    <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                    <p className="text-white/70">{service.description}</p>
+                    <div>
+                      <h3 className="text-xl font-bold mb-2">{service.title}</h3>
+                      <p className="text-white/70">{service.description}</p>
+                    </div>
                   </div>
                 </div>
               </div>
