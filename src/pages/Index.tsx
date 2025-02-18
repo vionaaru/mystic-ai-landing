@@ -2,6 +2,7 @@
 import HeroSection from "@/components/HeroSection";
 import TeamSection from "@/components/TeamSection";
 import ServicesGrid from "@/components/ServicesGrid";
+import AIChatDemo from "@/components/AIChatDemo";
 import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
@@ -10,6 +11,7 @@ const Index = () => {
       <HeroSection />
       <TeamSection />
       <ServicesGrid />
+      <AIChatDemo />
       <ContactForm />
     </main>
   );
