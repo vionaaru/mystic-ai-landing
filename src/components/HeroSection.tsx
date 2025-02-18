@@ -1,6 +1,6 @@
 
 import { useEffect, useRef } from "react";
-import { Circuit } from "lucide-react";
+import { Cpu } from "lucide-react";
 
 const HeroSection = () => {
   const titleRef = useRef<HTMLHeadingElement>(null);
@@ -28,7 +28,7 @@ const HeroSection = () => {
       <div className="parallax-bg" />
       <div className="max-w-4xl mx-auto text-center z-10">
         <div className="mb-6 inline-flex items-center justify-center px-4 py-2 glass-panel rounded-full">
-          <Circuit className="w-4 h-4 mr-2 text-neon-purple" />
+          <Cpu className="w-4 h-4 mr-2 text-neon-purple" />
           <span className="text-sm font-medium">LLMOps Experts</span>
         </div>
         <h1 
