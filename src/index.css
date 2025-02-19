@@ -36,7 +36,7 @@
 }
 
 .gradient-text {
-  @apply bg-gradient-to-r from-white via-white/90 to-accent-light bg-clip-text text-transparent;
+  @apply bg-gradient-to-r from-white to-neon-purple bg-clip-text text-transparent;
 }
 
 .parallax-bg {

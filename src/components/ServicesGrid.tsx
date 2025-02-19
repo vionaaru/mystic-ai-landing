@@ -46,8 +46,8 @@ const ServicesGrid = () => {
                       <Icon className="w-6 h-6 text-neon-purple" />
                     </div>
                     <div>
-                      <h3 className="text-xl font-bold mb-2">{service.title}</h3>
-                      <p className="text-white/70">{service.description}</p>
+                      <h3 className="text-xl font-bold mb-2 gradient-text">{service.title}</h3>
+                      <p className="gradient-text">{service.description}</p>
                     </div>
                   </div>
                 </div>

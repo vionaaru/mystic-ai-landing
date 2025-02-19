@@ -40,8 +40,8 @@ const TeamSection = () => {
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-accent/20 mb-4 group-hover:animate-glow-pulse">
                       <Icon className="w-8 h-8 text-neon-purple" />
                     </div>
-                    <h3 className="text-xl font-bold mb-2">{member.role}</h3>
-                    <p className="text-white/70">{member.description}</p>
+                    <h3 className="text-xl font-bold mb-2 gradient-text">{member.role}</h3>
+                    <p className="gradient-text">{member.description}</p>
                   </div>
                 </div>
               </div>
