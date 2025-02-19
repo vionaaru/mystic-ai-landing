@@ -35,7 +35,7 @@ const TeamSection = () => {
                 className="relative group cursor-pointer"
               >
                 <div className="absolute inset-0 bg-gradient-to-r from-neon-purple/20 via-neon-blue/20 to-neon-purple/20 rounded-xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300" />
-                <div className="glass-panel rounded-xl p-6 transition-all duration-300 hover:scale-105 border border-white/10 group-hover:border-neon-purple/50 relative bg-black/40 backdrop-blur-sm">
+                <div className="glass-panel rounded-xl p-6 transition-all duration-300 hover:scale-105 neon-border relative bg-black/40 backdrop-blur-sm animate-glow-pulse">
                   <div className="flex flex-col items-center text-center">
                     <div className="w-16 h-16 rounded-full flex items-center justify-center bg-accent/20 mb-4 group-hover:animate-glow-pulse">
                       <Icon className="w-8 h-8 text-neon-purple" />
