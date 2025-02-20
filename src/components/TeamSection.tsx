@@ -44,9 +44,9 @@ const TeamSection = () => {
                   <TooltipTrigger asChild>
                     <div className="relative group cursor-pointer">
                       <div className="absolute inset-0 bg-gradient-to-r from-neon-purple/20 via-neon-blue/20 to-neon-purple/20 rounded-xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300" />
-                      <div className="glass-panel rounded-xl p-6 transition-all duration-300 hover:scale-105 neon-border relative bg-gradient-to-b from-white/5 to-transparent backdrop-blur-[2px] shadow-[inset_0_1px_1px_rgba(255,255,255,0.2),0_10px_20px_-5px_rgba(0,0,0,0.4)]">
+                      <div className="glass-panel rounded-xl p-6 transition-all duration-300 hover:scale-105 relative bg-gradient-to-b from-white/5 to-transparent backdrop-blur-[2px] shadow-[inset_0_1px_1px_rgba(255,255,255,0.2),0_10px_20px_-5px_rgba(0,0,0,0.4)] animate-glow-pulse">
                         <div className="flex flex-col items-center text-center">
-                          <div className="w-16 h-16 rounded-full flex items-center justify-center bg-accent/20 mb-4 group-hover:animate-glow-pulse">
+                          <div className="w-16 h-16 rounded-full flex items-center justify-center bg-accent/20 mb-4 neon-border">
                             <Icon className="w-8 h-8 text-neon-purple" />
                           </div>
                           <h3 className="text-xl font-bold mb-2 gradient-text">{member.role}</h3>
