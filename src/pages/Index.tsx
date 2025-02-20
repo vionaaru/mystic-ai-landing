@@ -7,7 +7,8 @@ import ContactForm from "@/components/ContactForm";
 
 const Index = () => {
   return (
-    <main className="min-h-screen">
+    <main className="min-h-screen relative">
+      <div className="parallax-bg" />
       <HeroSection />
       <TeamSection />
       <ServicesGrid />
