@@ -57,9 +57,11 @@ export default {
         "glow-pulse": {
           "0%, 100%": {
             boxShadow: "0 0 5px #7E69AB, 0 0 15px #7E69AB, 0 0 20px #7E69AB",
+            borderColor: "#B76EFF",
           },
           "50%": {
-            boxShadow: "0 0 10px #7E69AB, 0 0 25px #7E69AB, 0 0 30px #7E69AB",
+            boxShadow: "0 0 10px #B76EFF, 0 0 25px #B76EFF, 0 0 30px #B76EFF",
+            borderColor: "#1EAEDB",
           },
         },
         float: {
